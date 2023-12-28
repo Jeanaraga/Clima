@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.4/css/bulma.min.css">
+    <title>Clima</title>
+</head>
+<body>
+    <main class="box ">
+        <form class="control p-3">
+            <div class="field has-addons">
+                <div class="control">
+                  <input class="input" type="text" placeholder="Digite o nome da cidade:" id="cidade">
+                </div>
+                <div class="control">
+                  <a class="button is-info" id="botao">
+                    Search
+                  </a>
+                </div>
+              </div>
+        </form>
+
+        <div class="infos is-flex-direction-column">
+            <div class="cidade-pais is-justify-content-center">
+                <span id="nome-cidade" class="is-size-2 has-text-primary	">Divinopolis - </span>
+                <span id="pais" class="is-size-2 has-text-primary	">BR</span>
+            </div>
+            <span id="temperatura" class="is-size-1">30ºC</span>
+        </div>
+    </main>
+
+
+
+    <script src="./script.js"></script>
+</body>
+</html>
